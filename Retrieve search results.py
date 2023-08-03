@@ -10,6 +10,7 @@ from bs4 import BeautifulSoup
 
 #set base url
 base_url = 'https://google.com/search?q='
+
 #function to retrieve results
 def get_results(search,num_results=10):
     
