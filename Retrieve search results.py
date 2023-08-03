@@ -34,7 +34,7 @@ def get_results(search,num_results=10):
 
 def main():
     #user input
-    search = input("Enter your search prompt: ")
+    search = input("Search: ")
     top_results = get_results(search)
     
     #print results
